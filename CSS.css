@@ -1,0 +1,88 @@
+﻿body {
+    /*text-align: center;*/
+    background-color: #FEFAE0;
+    color: #3E2C28;
+    font-family: Bahnschrift;
+}
+
+div {
+    text-align: center;
+}
+
+.logo {
+    height: 90px;
+    position: relative;
+    opacity: 0.3;
+}
+.title {
+    top: 4%;
+    left: 50%;
+    width:100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /*font-size: 50px;*/
+}
+
+.menu th:hover {
+    background-color: #FAEDCD;
+}
+
+.menu{
+    width:100%;
+    margin: 30px;
+}
+
+#img1{
+    float:right;
+    width: 350px;
+}
+
+#img2{
+    float: left;
+    width: 350px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 7px;
+}
+#unsubscribeButton{
+    margin-top:0px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #3E2C28;
+}
+
+a:hover {
+    color: #3E2C28;
+    font-size: larger;
+}
+
+a:visited {
+    color: #3E2C28;
+}
+
+.infoMovie {
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #FAEDCD;
+    border:dotted;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+div iframe{
+    text-align:center;
+}
+
+.homeButton {
+    background-color: #FAEDCD;
+    border:solid;
+    border-radius: 7px;
+}
+
+/*.infoMovie tr{
+    padding: 115px;
+}*/
